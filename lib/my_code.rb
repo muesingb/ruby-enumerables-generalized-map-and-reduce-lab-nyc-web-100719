@@ -1,10 +1,10 @@
 def map(source_array)
 i = 0
   return_array = []
-    while i < source_array.length do
-      return_array[i] = yield(source_array[i])
-      i += 1
-    end
+  while i < source_array.length do
+    return_array[i] = yield(source_array[i])
+    i += 1
+  end
   return return_array
 end
 
